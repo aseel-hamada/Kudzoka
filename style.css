@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner{
+    position: relative;
+}
+.banner .banner-img{
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    z-index: -999;
+}
+/* start nav */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.navbar .nav-child-left{
+    display: flex;
+}
+.navbar .nav-child-left img{
+    width: 160px;
+}
+.navbar a{
+  text-decoration: none !important;
+  font-size: 17px;
+  font-weight: 00;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+.nav-child-right a {
+    width: 130px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 18px;
+    color: #333;
+    transition: all 0.5s ease;
+}
+.nav-child-right .login-nav:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: translateY(-10px);
+}
+/* done navber */
+/* start abnner div */
+.banner-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: relative;
+}
+.banner-div .left-div{
+    width: 50%;
+    padding-top: 200px;
+}
+.banner-div .left-div h3{
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #637279;
+}
+.banner-div .left-div h3 span{
+    color: #7a3d8a;
+}
+.banner-div .left-div  p {
+    color: #afafaf;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.banner-div .right-div{
+    width: 50%;
+    position: relative;
+}
+.banner .right-div .pic-background{
+    width: 100%;
+}
+.banner .right-div .pic-man{
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 300px;
+}
+.banner .right-div .pic-clouds{
+    position: absolute;
+    top: 420px;
+    left: 150px;
+    width: 300px;
+}
+.banner .pic-waves{
+    position: absolute;
+    top: 475px;
+    left: -250px;
+    width: 90%;
+}
+/* endd banner */
+/* start services */
+.services{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0 100px;
+    margin-top: 30px;
+}
+.services .background-second{
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    top: 100px;
+    left: 300px;
+}
+/* .services .our-services{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/second_section_.png);
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+ .services .our-services{
+    width: 100%;
+    height: 100vh;
+ }
+ .services .our-services div{
+    width: 410px;
+    height: 200px;
+    text-align: center;
+ }
+ .services .our-services div img{
+    width: 270px;
+ }
+ .services .our-services div h3{
+    color: #999;
+    font-size: 1.8em;
+ }
+ .services .our-services div p{
+    color: #b9b9b9;
+    font-size: 1.2em;
+    line-height: 30px;
+ }
+ .services .our-services .service-one{
+    position: absolute;
+    left: 100px;
+    top: 165px;
+ }
+ .services .our-services .service-one{
+    position: absolute;
+    left: 100px;
+    top: 165px;
+ }
+ .services .our-services .service-two{
+    position: absolute;
+    left: 530px;
+    top: 285px;
+ }
+ .services .our-services .service-three{
+    position: absolute;
+    left: 890px;
+    top: 520px;
+ }
+.services .another-services{
+    position: absolute;
+    top: 600px;
+    left: 140px;
+    background-image: url(images/why_kudzoka_bg.png);
+    width: 340px;
+    height: 280px;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+.services .another-services:hover{
+    transform:rotate(20deg)
+}
+.services .another-services .content-servic{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    text-align: left;
+}
+.services .another-services .content-servic p{
+    font-size: 1.7em;
+}
+.services .another-services .content-servic h3{
+    font-size: 2.8em;
+    font-weight: 400;
+}
+/* end servies  */
+/* start pics */
+.pics{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 100px;
+
+}
+.pics .all-pics{
+    margin-left: 80px;
+    margin-top: 170px;
+}
+.pics .all-pics .pic2{
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.pics h3{
+    text-align: center;
+    color: #999;
+    font-size: 1.8em;
+}
+.pics p{
+    text-align: center;
+    color: #b9b9b9;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+/* endpics */
+footer{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    margin-top: 350px;
+    overflow: hidden;
+}
+footer .footer-pic{
+    position: absolute;
+    width: 110%;
+    left: -50px;
+    height: 150%;
+}
+footer  .footer-pic2{
+    position: absolute;
+    width: 600px;
+    right: 130px;
+    bottom: 0;
+}
+footer .buttons{
+    width: 500px;
+    display: flex;
+    margin-top: 21%;
+    margin-left: 10%;
+    position: relative;
+}
+footer .buttons div{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: flex;
+    cursor: pointer;
+} 
+footer .buttons div:hover{
+    background-color: #7a3d8a;
+}
+footer .buttons div:hover i{
+    color: white;
+}
+footer .buttons div i{
+    color: #7a3d8a;
+
+}
+.fa-google-play{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.fa-apple{
+    font-size: 36px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+footer .buttons div p{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+footer .buttons div p span{
+    font-size: 20px;
+    color: #7a3d8a;
+}
+
+footer .buttons div:hover p span{
+    color: white;
+}
+footer .icon-footer{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 160px;
+    width: 200px;
+    display: flex;
+}
+footer .icon-footer a{
+    text-decoration: none;
+  }
+footer  .icon-footer a i{
+    color: white;
+    font-size: 1.8em;
+    margin-right: 20px;
+  }
+  footer  .links-footer{
+    margin-top: 12px;
+    position: absolute;
+    top: 440px;
+    left: 160px;
+  }
+  footer .links-footer a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+  }
+  footer  .links-footer a:hover{
+    color: #7a3d8a;
+  }
+ 
